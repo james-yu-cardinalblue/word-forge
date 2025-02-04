@@ -13,6 +13,7 @@ const Header = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center">
+              <img src="/placeholder-logo.png" alt="WordForge Logo" className="h-10 w-10" />
               <span className="text-2xl font-bold text-blue-600">WordForge</span>
             </Link>
           </div>
