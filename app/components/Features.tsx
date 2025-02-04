@@ -1,25 +1,25 @@
-import { Zap, Users, BarChart, Lock } from "lucide-react"
+import { BookA, Bot, Zap, ChartColumnIncreasing } from "lucide-react"
 
 const features = [
   {
-    name: "Lightning Fast",
-    description: "Our platform is optimized for speed, ensuring you can work efficiently without any lag.",
+    name: "Your Personal Dictionary",
+    description: "Create and customize your own dictionary with fully personalized content tailored to your learning needs.",
+    icon: BookA,
+  },
+  {
+    name: "AI-Powered Simplicity",
+    description: "Adding new words is effortless—AI provides definitions, examples, and suggestions instantly.",
+    icon: Bot,
+  },
+  {
+    name: "Smart Flashcards (Optional)",
+    description: "Review words efficiently with an integrated flashcard system designed to reinforce memory.",
     icon: Zap,
   },
   {
-    name: "Team Collaboration",
-    description: "Easily collaborate with your team members in real-time, boosting productivity and communication.",
-    icon: Users,
-  },
-  {
-    name: "Advanced Analytics",
-    description: "Gain valuable insights into your workflow with our powerful analytics and reporting tools.",
-    icon: BarChart,
-  },
-  {
-    name: "Secure & Reliable",
-    description: "Your data is safe with us. We use industry-leading security measures to protect your information.",
-    icon: Lock,
+    name: "Learning Insights",
+    description: "Track your progress with analytics—see how many words you’ve added and reviewed over time.",
+    icon: ChartColumnIncreasing,
   },
 ]
 
@@ -30,10 +30,10 @@ const Features = () => {
         <div className="lg:text-center">
           <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">Features</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Everything you need to streamline your workflow
+            Everything you need to build your vocabulary effortlessly
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            StreamLine offers a comprehensive set of features designed to help you work smarter, not harder.
+            WordForge offers a powerful set of features designed to make learning smarter, not harder.
           </p>
         </div>
 
