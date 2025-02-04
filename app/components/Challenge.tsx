@@ -1,3 +1,23 @@
+const challenges = [
+  {
+    title: "Forgetting words despite looking them up repeatedly",
+    description: "New words don’t stick when they aren’t learned in a personal context.",
+  },
+  {
+    title: "Making word notes feels time-consuming and inefficient",
+    description:
+      "Organizing vocabulary should enhance learning, not feel like extra work.",
+  },
+  {
+    title: "Uncertainty about grammar and natural phrasing in your notes",
+    description: "You’re unsure if your self-written sentences sound correct and natural.",
+  },
+  {
+    title: "Scattered word notes make it hard to review",
+    description: "Your vocabulary is spread across different apps, notebooks, and platforms.",
+  }
+]
+
 const Challenge = () => {
   return (
     <section className="py-12 bg-gray-50">
@@ -5,21 +25,16 @@ const Challenge = () => {
         <div className="lg:text-center">
           <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">The Challenge</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Managing workflows in the digital age
+            Struggling to retain and use new words?
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            In today's fast-paced business environment, teams struggle with:
+            In language learning, many learners face common obstacles:
           </p>
         </div>
         <div className="mt-10">
-          <ul className="md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-            {[
-              "Scattered communication across multiple platforms",
-              "Inefficient task management and unclear priorities",
-              "Lack of visibility into project progress and team productivity",
-              "Difficulty in collaborating remotely and maintaining team alignment",
-            ].map((item, index) => (
-              <li key={index} className="mt-10 md:mt-0">
+          <ul className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+            {challenges.map((challenge, index) => (
+              <li key={index}>
                 <div className="flex">
                   <div className="flex-shrink-0">
                     <div className="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
@@ -40,7 +55,8 @@ const Challenge = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <p className="text-lg leading-6 font-medium text-gray-900">{item}</p>
+                    <h3 className="text-lg leading-6 font-medium text-gray-900">{challenge.title}</h3>
+                    <p className="mt-2 text-base text-gray-500">{challenge.description}</p>
                   </div>
                 </div>
               </li>
@@ -53,4 +69,3 @@ const Challenge = () => {
 }
 
 export default Challenge
-
