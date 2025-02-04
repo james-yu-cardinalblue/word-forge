@@ -2,24 +2,23 @@ import { Check } from "lucide-react"
 
 const plans = [
   {
-    name: "Basic",
-    price: 29,
-    features: ["5 team members", "10GB storage", "Basic analytics", "Email support"],
+    name: "Free",
+    price: 0,
+    features: ["Up to 3 new words/day", "AI-powered definitions & examples", "Basic sentence proofreading"],
+  },
+  {
+    name: "Standard",
+    price: 6.99,
+    features: ["Unlimited words in your dictionary", "Full AI proofreading & grammar suggestions", "Personalized AI-generated example sentences", "Smart flashcards for review"],
   },
   {
     name: "Pro",
-    price: 79,
-    features: ["Unlimited team members", "100GB storage", "Advanced analytics", "Priority email support", "API access"],
-  },
-  {
-    name: "Enterprise",
-    price: 199,
+    price: 9.99,
     features: [
-      "Unlimited everything",
-      "Dedicated account manager",
-      "Custom integrations",
-      "24/7 phone support",
-      "On-premise deployment option",
+      "Everything in Standard, plus:",
+      "Advanced learning analytics",
+      "AI-powered quiz mode to reinforce learning",
+      "Export & backup your personal dictionary",
     ],
   },
 ]
@@ -30,7 +29,7 @@ const Pricing = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Simple, transparent pricing</h2>
-          <p className="mt-4 text-lg text-gray-500">Choose the plan that's right for your team</p>
+          <p className="mt-4 text-lg text-gray-500">Choose the plan that’s right for your learning journey</p>
         </div>
         <div className="mt-16 grid gap-8 lg:grid-cols-3">
           {plans.map((plan) => (
