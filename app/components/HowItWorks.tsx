@@ -1,18 +1,18 @@
 const steps = [
   {
-    title: "Sign Up and Onboard Your Team",
+    title: "Discover",
     description:
-      "Create your StreamLine account and invite your team members. Set up your workspace and customize it to fit your needs.",
+      "Enter a sentence with a word you want to learn. WordForge automatically provides its definition and generates example sentences in the same context.",
   },
   {
-    title: "Create and Assign Tasks",
+    title: "Refine",
     description:
-      "Easily create tasks, set priorities, and assign them to team members. Use our intuitive interface to organize your workflow.",
+      "Write your own sentence using the word or choose from personalized AI suggestions. WordForge proofreads to ensure perfect grammar and natural phrasing.",
   },
   {
-    title: "Track Progress and Collaborate",
+    title: "Save",
     description:
-      "Monitor project progress in real-time, collaborate with your team, and use analytics to optimize your workflow.",
+      "Make any final edits, then save it to your personal dictionary. Revisit and update anytime for better retention.",
   },
 ]
 
@@ -23,7 +23,7 @@ const HowItWorks = () => {
         <div className="lg:text-center">
           <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">How It Works</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Streamline your workflow in 3 simple steps
+            Build your own dictionary in 3 simple steps:
           </p>
         </div>
         <div className="mt-10">
