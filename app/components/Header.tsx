@@ -11,26 +11,28 @@ const Header = () => {
     <header className="bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
-          <div className="flex">
+          <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center">
-              <span className="text-2xl font-bold text-blue-600">StreamLine</span>
+              <span className="text-2xl font-bold text-blue-600">WordForge</span>
             </Link>
           </div>
-          <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-            <Link href="#features" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
-              Features
-            </Link>
-            <Link href="#pricing" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
-              Pricing
-            </Link>
-          </div>
-          <div className="hidden sm:ml-6 sm:flex sm:items-center">
-            <Link
-              href="#cta"
-              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
-            >
-              Get Started
-            </Link>
+          <div className="hidden sm:flex sm:items-center sm:justify-end sm:flex-1">
+            <div className="flex space-x-4">
+              <Link href="#features" className="text-sm font-medium text-gray-900 hover:text-blue-600">
+                Features
+              </Link>
+              <Link href="#pricing" className="text-sm font-medium text-gray-900 hover:text-blue-600">
+                Pricing
+              </Link>
+            </div>
+            <div className="ml-6">
+              <Link
+                href="#cta"
+                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
+              >
+                Get Started
+              </Link>
+            </div>
           </div>
           <div className="-mr-2 flex items-center sm:hidden">
             <button
@@ -77,4 +79,3 @@ const Header = () => {
 }
 
 export default Header
-
