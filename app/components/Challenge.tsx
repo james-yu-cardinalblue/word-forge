@@ -4,13 +4,13 @@ const challenges = [
     description: "New words don’t stick when they aren’t learned in a personal context.",
   },
   {
+    title: "Not sure if you’re using the words correctly and naturally",
+    description: "You’re unsure if your self-written sentences sound correct and natural.",
+  },
+  {
     title: "Taking word notes feels like a chore rather than a learning tool",
     description:
       "Organizing vocabulary should enhance learning, not feel like extra work.",
-  },
-  {
-    title: "Not sure if your sentences sound right? You’re not alone",
-    description: "You’re unsure if your self-written sentences sound correct and natural.",
   },
   {
     title: "Your word notes are all over the place—hard to find, harder to review",
@@ -28,7 +28,7 @@ const Challenge = () => {
             You’re relying on dictionaries built for others—it’s time to create your own!
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Traditional learning methods don’t work because they aren’t made for you. Here’s why:
+            Traditional dictionaries or word notes don’t work because they know nothing about you. Do you feel:
           </p>
         </div>
         <div className="mt-10">
