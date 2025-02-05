@@ -8,9 +8,9 @@ import type React from "react" // Added import for React
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "StreamLine - Simplify Your Workflow",
+  title: "WordForge - Your words. Your context. Your dictionary.",
   description:
-    "StreamLine is a powerful SaaS platform that helps you streamline your business processes and boost productivity.",
+    "Powered by AI, WordForge helps you build a personalized vocabulary—effortlessly. Learn, remember, and use words your way with minimal effort.",
 }
 
 export default function RootLayout({

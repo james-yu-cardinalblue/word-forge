@@ -37,11 +37,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div className="w-[800px] h-[600px] bg-white flex items-center justify-center">
         <img
-          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+          className="max-w-full max-h-full object-contain"
           src="/placeholder.png?height=600&width=800"
           alt="WordForge dashboard"
         />
+      </div>
       </div>
     </div>
   )
