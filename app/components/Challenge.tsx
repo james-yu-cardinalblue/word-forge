@@ -1,19 +1,19 @@
 const challenges = [
   {
-    title: "Forgetting words despite looking them up repeatedly",
+    title: "You keep looking up the same words—but they never stick",
     description: "New words don’t stick when they aren’t learned in a personal context.",
   },
   {
-    title: "Making word notes feels time-consuming and inefficient",
+    title: "Taking word notes feels like a chore rather than a learning tool",
     description:
       "Organizing vocabulary should enhance learning, not feel like extra work.",
   },
   {
-    title: "Uncertainty about grammar and natural phrasing in your notes",
+    title: "Not sure if your sentences sound right? You’re not alone",
     description: "You’re unsure if your self-written sentences sound correct and natural.",
   },
   {
-    title: "Scattered word notes make it hard to review",
+    title: "Your word notes are all over the place—hard to find, harder to review",
     description: "Your vocabulary is spread across different apps, notebooks, and platforms.",
   }
 ]
@@ -23,12 +23,12 @@ const Challenge = () => {
     <section className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">The Challenge</h2>
+          <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">CANNOT REMEMBER NEW WORDS?</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Struggling to retain and use new words?
+            You’re relying on dictionaries built for others—it’s time to create your own!
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            In language learning, many learners face common obstacles:
+            Traditional learning methods don’t work because they aren’t made for you. Here’s why:
           </p>
         </div>
         <div className="mt-10">

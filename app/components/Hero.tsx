@@ -39,8 +39,8 @@ const Hero = () => {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="/placeholder.svg?height=600&width=800"
-          alt="StreamLine dashboard"
+          src="/placeholder.png?height=600&width=800"
+          alt="WordForge dashboard"
         />
       </div>
     </div>
